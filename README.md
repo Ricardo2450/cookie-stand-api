@@ -1,3 +1,28 @@
+# Lab 34
+
+### Lab34: Putting it All Together
+
+### Author: Ricardo Soto-Fabela
+
+### Partners: Aubrey, Angelos
+
+### How to run:
+
+python manage.py runserver Navigate to admin
+Run in search bar in browser: http://127.0.0.1:8000/admin
+
+
+### Resources:
+https://api.elephantsql.com/
+
+
+
+
+
+
+
+
+
 # api-quick-start
 
 Template Project for starting up CRUD API with Django Rest Framework
