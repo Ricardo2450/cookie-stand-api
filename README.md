@@ -15,6 +15,9 @@ Run in search bar in browser: http://127.0.0.1:8000/admin
 ### Resources:
 https://api.elephantsql.com/
 
+### Deployed Url:
+- Coming soon
+
 
 
 

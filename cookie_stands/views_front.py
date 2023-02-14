@@ -13,12 +13,14 @@ class CookieStandListView(LoginRequiredMixin, ListView):
 class CookieStandDetailView(LoginRequiredMixin, DetailView):
     template_name = "cookie_stand/cookie_stand_detail.html"
     model = CookieStand
+    context_object_name = "cookie_stands"
 
 
 class CookieStandUpdateView(LoginRequiredMixin, UpdateView):
     template_name = "cookie_stand/cookie_stand_update.html"
     model = CookieStand
     fields = "__all__"
+    context_object_name = "cookie_stands"
 
 
 class CookieStandCreateView(LoginRequiredMixin, CreateView):
